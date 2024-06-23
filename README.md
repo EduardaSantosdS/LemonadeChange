@@ -27,8 +27,7 @@ Como nem todos os clientes receberam o troco correto, a resposta é falsa.
 
 A principio, o código funciona por completo. Não foi possível fazer a verificação no Dr.Memory, pois o mesmo deu problemas que não consegui resolver de forma alguma. 
 O erro aponta para o meu ambiente de desenvolvimento, mas nada é capaz de solucionar o mesmo. O erro em questão, é o seguinte:
-
-Error #1: UNINITIALIZED READ: reading register eax
+"Error #1: UNINITIALIZED READ: reading register eax
 # 0 KERNELBASE.dll!FindNextFileW 
 # 1 KERNELBASE.dll!FindNextFileA 
 # 2 .text                              [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
@@ -38,6 +37,6 @@ Error #1: UNINITIALIZED READ: reading register eax
 # 6 mainCRTStartup
 # 7 ntdll.dll!__RtlUserThreadStart
 Note: @0:00:00.840 in thread 5312
-Note: instruction: cmp    %eax $0x0000001a
+Note: instruction: cmp    %eax $0x0000001a"
 
 Dito isso, não sei dizer se acontece algo além do mostrado no código, a compilação está correta e sendo executada de maneira eficiente.
