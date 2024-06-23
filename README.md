@@ -5,7 +5,7 @@ O problema é sobre gerenciar uma barraca de limonada onde cada limonada custa $
 
 As situações testadas foram as seguintes: 
 __Entrada 1:__ 5, 5, 5, 10, 20
-__Saída 2:__ Verdadeiro
+__Saída 1:__ Verdadeiro
 Dos primeiros 3 clientes, coletamos três notas de US$ 5 em ordem.
 Do quarto cliente, cobramos uma nota de US$ 10 e devolvemos US$ 5.
 Do quinto cliente, damos uma nota de 10 dólares e uma nota de 5 dólares.
