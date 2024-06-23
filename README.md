@@ -26,7 +26,8 @@ Nos próximos 3 clientes do pedido, recebemos as notas de 10 de cada um, mas só
 Como nem todos os clientes receberam o troco correto, a resposta é falsa.
 
 A principio, o código funciona por completo. Não foi possível fazer a verificação no Dr.Memory, pois o mesmo deu problemas que não consegui resolver de forma alguma. 
-O erro aponta para o meu ambiente de desenvolvimento, mas nada é capaz de solucionar o mesmo. O erro em questão, é o seguinte: 
+O erro aponta para o meu ambiente de desenvolvimento, mas nada é capaz de solucionar o mesmo. O erro em questão, é o seguinte:
+
 Error #1: UNINITIALIZED READ: reading register eax
 # 0 KERNELBASE.dll!FindNextFileW 
 # 1 KERNELBASE.dll!FindNextFileA 
