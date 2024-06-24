@@ -22,7 +22,7 @@ __Entrada 3:__ 5, 20, 10, 10, 20
 __Saida 3:__ Falso
 No primeiro cliente do pedido, recebemos uma nota de 5.
 No segundo cliente do pedido, recebemos uma nota de 20, mas não podemos devolver o troco pois temos apenas uma nota de 5, e ser necessário tres notas de 5, ou uma de 10 e outra de 5.
-Nos próximos 3 clientes do pedido, recebemos as notas de 10 de cada um, mas só seria possível dar o troco para apenas um deles, pois temos apenas uma nota de 5.
+Nos próximos 2 clientes do pedido, recebemos as notas de 10 de cada um, mas só seria possível dar o troco para apenas um deles, pois temos apenas uma nota de 5. Para o último cliente, não podemos devolver o troco pois teriamos usado a nota de 5 para o troco do cliente anterior.
 Como nem todos os clientes receberam o troco correto, a resposta é falsa.
 
 A principio, o código funciona por completo. Não foi possível fazer a verificação no Dr.Memory, pois o mesmo deu problemas que não consegui resolver de forma alguma. 
